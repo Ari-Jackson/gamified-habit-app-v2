@@ -3,7 +3,16 @@
 @tailwind utilities;
 
 @layer components {
-  .nav-icon {
+  .top-nav-icon {
     @apply text-white h-6 w-6 cursor-pointer hover:bg-slate-300 rounded-sm mx-2;
+  }
+  .side-nav-icon {
+    @apply text-white h-6 w-6 cursor-pointer hover:bg-slate-300 rounded-sm mx-2;
+  }
+  .nav-height {
+    @apply h-11;
+  }
+  .side-nav-height {
+    height: calc(100vh - theme(height.11));
   }
 }
