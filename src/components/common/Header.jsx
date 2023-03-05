@@ -5,6 +5,7 @@ import {
   QuestionMarkCircleIcon,
   UserCircleIcon,
 } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
 export default function Header({ setOpen, open }) {
   const handleCick = () => setOpen(!open);
@@ -12,7 +13,9 @@ export default function Header({ setOpen, open }) {
     <header className="bg-primary fixed top-0 h-11 w-full flex justify-between px-5 box-border">
       <div className="flex items-center">
         <Bars3Icon className="top-nav-icon" onClick={handleCick} />
-        <HomeIcon className="top-nav-icon" />
+        <Link to="/">
+          <HomeIcon className="top-nav-icon" />
+        </Link>
         <MagnifyingGlassIcon className="top-nav-icon" />
       </div>
       <div className=" flex items-center">
