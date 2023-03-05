@@ -7,6 +7,7 @@ import Inbox from "./pages/Inbox/Inbox";
 import Today from "./pages/Today/Today";
 import Upcoming from "./pages/Upcoming/Upcoming";
 import PageWrapper from "./components/common/PageWrapper";
+import Statsbar from "./components/common/StatsBar/Statsbar";
 
 function App() {
   const [open, setOpen] = useState(true);
@@ -18,6 +19,7 @@ function App() {
         <SideNav open={open} />
         <main>
           <PageWrapper open={open}>
+            <Statsbar open={open} />
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/inbox" element={<Inbox />} />
