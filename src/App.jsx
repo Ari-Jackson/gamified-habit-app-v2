@@ -1,15 +1,17 @@
-import Header from "./components/common/Header";
-import SideNav from "./components/common/SideNav";
 import { useState } from "react";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
+// --------- Pages & Components ---------
+import Header from "./components/common/Header";
+import SideNav from "./components/common/SideNav";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import Inbox from "./pages/Inbox/Inbox";
 import Today from "./pages/Today/Today";
 import Upcoming from "./pages/Upcoming/Upcoming";
+import TrainingCenter from "./pages/TrainingCenter/TrainingCenter";
 import PageWrapper from "./components/common/PageWrapper";
 import Statsbar from "./components/common/StatsBar/Statsbar";
 
-function App() {
+export default function App() {
   const [open, setOpen] = useState(true);
 
   return (
@@ -22,9 +24,10 @@ function App() {
             <Statsbar open={open} />
             <Routes>
               <Route path="/" element={<Dashboard />} />
-              <Route path="/inbox" element={<Inbox />} />
               <Route path="/today" element={<Today />} />
-              <Route path="/upcoming" element={<Upcoming />} />
+              <Route path="/incoming" element={<Inbox />} />
+              <Route path="/missions" element={<Upcoming />} />
+              <Route path="/training-center" element={<TrainingCenter />} />
             </Routes>
           </PageWrapper>
         </main>
@@ -32,5 +35,3 @@ function App() {
     </>
   );
 }
-
-export default App;
