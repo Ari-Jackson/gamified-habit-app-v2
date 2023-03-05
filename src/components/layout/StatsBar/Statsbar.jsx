@@ -8,7 +8,7 @@ export default function Statsbar() {
 
   return (
     <div
-      className={`bg-secondary rounded-b-lg duration-500 px-3 py-2 flex ${
+      className={`bg-secondary rounded-b-lg px-3 py-2 flex duration-500 mb-5 ${
         statsOpen ? "h-40" : "h-10"
       }`}
     >
@@ -16,13 +16,15 @@ export default function Statsbar() {
         <img
           src={Mario}
           alt={"Ari's Profile"}
-          className={`${
+          className={`h-28 w-28 rounded-full mx-auto mb-2 duration-500 ${
             !statsOpen && "hidden"
-          } h-28 w-28 rounded-full mx-auto mb-2`}
+          }`}
         />
         <div className="flex self-end">
-          <h1 className="font-bold text-slate-700">Ari-the-don</h1>
-          <h1 className="text-slate-600 pl-2">· Level 1</h1>
+          <h1 className="font-bold text-primary whitespace-pre">Ari-the-don</h1>
+          <h1 className="text-primary opacity-75 pl-2 whitespace-pre">
+            · Level 1
+          </h1>
         </div>
       </div>
       <StatsSection statsOpen={statsOpen} />
