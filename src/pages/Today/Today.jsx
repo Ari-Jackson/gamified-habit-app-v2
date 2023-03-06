@@ -8,8 +8,13 @@ export default function Today() {
           <h1 className="text-2xl font-bold text-primary">Today</h1>
         </div>
       </header>
-      <div className="mt-5">
-        <TodoComponent />
+      <div className="grid grid-cols-2 bg-red-200">
+        <div className="h-12 w-12"></div>
+        <ul>
+          <TodoComponent />
+          <TodoComponent />
+          <TodoComponent />
+        </ul>
       </div>
     </>
   );

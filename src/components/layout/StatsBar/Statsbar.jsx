@@ -8,7 +8,7 @@ export default function Statsbar() {
 
   return (
     <div
-      className={`bg-secondary rounded-b-lg px-3 py-2 flex duration-500 mb-5 ${
+      className={`mb-5 flex rounded-b-lg bg-secondary px-3 py-2 ${
         statsOpen ? "h-40" : "h-10"
       }`}
     >
@@ -16,13 +16,13 @@ export default function Statsbar() {
         <img
           src={Mario}
           alt={"Ari's Profile"}
-          className={`h-28 w-28 rounded-full mx-auto mb-2 duration-500 ${
+          className={`mx-auto mb-2 h-28 w-28 rounded-full ${
             !statsOpen && "hidden"
           }`}
         />
         <div className="flex self-end">
-          <h1 className="font-bold text-primary whitespace-pre">Ari-the-don</h1>
-          <h1 className="text-primary opacity-75 pl-2 whitespace-pre">
+          <h1 className="whitespace-pre font-bold text-primary">Ari-the-don</h1>
+          <h1 className="whitespace-pre pl-2 text-primary opacity-75">
             · Level 1
           </h1>
         </div>
@@ -30,12 +30,12 @@ export default function Statsbar() {
       <StatsSection statsOpen={statsOpen} />
       {statsOpen ? (
         <ChevronUpIcon
-          className="w-10 h-10 self-end"
+          className="h-10 w-10 self-end"
           onClick={() => setStatsOpen(!statsOpen)}
         />
       ) : (
         <ChevronDownIcon
-          className="w-10 h-10 self-end"
+          className="h-10 w-10 self-end"
           onClick={() => setStatsOpen(!statsOpen)}
         />
       )}

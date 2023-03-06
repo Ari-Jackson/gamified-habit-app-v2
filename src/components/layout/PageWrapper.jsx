@@ -7,7 +7,7 @@ export default function PageWrapper({ open, children }) {
         }
         ${
           open ? "pl-4" : "pl-14"
-        } fixed right-0 bottom-0 shadow-sm pr-14 p-l -z-10`}
+        } p-l fixed right-0 bottom-0 -z-10 pr-14 shadow-sm`}
       >
         {children}
       </div>

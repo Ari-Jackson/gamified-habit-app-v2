@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 export default function Header({ setOpen, open }) {
   const handleCick = () => setOpen(!open);
   return (
-    <header className="bg-primary fixed top-0 h-11 w-full flex justify-between px-5 box-border">
+    <header className="fixed top-0 box-border flex h-11 w-full justify-between bg-primary px-5">
       <div className="flex items-center">
         <Bars3Icon className="top-nav-icon" onClick={handleCick} />
         <Link to="/">
