@@ -16,7 +16,7 @@ export default function SideNav({ open }) {
         >
           {sideNavData.map(({ title, icon, link, sectionEnd }) => {
             return (
-              <Link to={link}>
+              <Link to={link} key={title}>
                 <div
                   className={`text-primary duration-300 relative h-8 flex items-center space-x-2 cursor-pointer rounded-md hover:bg-primary hover:text-white pl-2 ${
                     sectionEnd && "mb-5"
