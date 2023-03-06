@@ -1,4 +1,4 @@
-import { GiCircle } from "react-icons/gi";
+import TodoComponent from "../../components/common/TodoComponent";
 
 export default function Today() {
   return (
@@ -8,14 +8,9 @@ export default function Today() {
           <h1 className="text-2xl font-bold text-primary">Today</h1>
         </div>
       </header>
-      <div className="bg-green-400">
-        <h3>What the fuck</h3>
-        <p>what the like actual fuck</p>
+      <div className="mt-5">
+        <TodoComponent />
       </div>
     </>
   );
-}
-
-{
-  /* <GiCircle /> */
 }
