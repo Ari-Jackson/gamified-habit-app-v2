@@ -1,6 +1,6 @@
 import { ChevronUpIcon, ChevronDownIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
-import Mario from "../../../assets/Mario.jpeg";
+import Mario from "../../../assets/images/Mario.jpeg";
 import StatsSection from "./StatsSection";
 
 export default function Statsbar() {
