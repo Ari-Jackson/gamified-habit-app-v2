@@ -1,0 +1,274 @@
+{
+  "tasks": [
+    {
+      "taskId": 1,
+      "taskTitle": "Do the dishes",
+      "description": "Do BEFORE 6PM/Tori comes home",
+      "due": { "date": "Mar 8", "relative": "Today" },
+      "tags": ["home", "work", "kids"],
+      "reminders": [{}],
+      "priority": 1,
+      "difficulty": 2,
+      "project": "Inbox",
+      "scheduled": { "date": "Mar 8", "relative": "Today" },
+      "parentTask": {},
+      "subtasks": [{}],
+      "reward": {
+        "xp": 20,
+        "gold": 50
+      }
+    },
+    {
+      "id": 2,
+      "taskTitle": "Homework",
+      "description": "YOU'RE FAILING THIS CLASS DON'T FORGET",
+      "due": { "date": "Mar 8", "relative": "Today" },
+      "tags": ["home", "school"],
+      "reminders": [{}, {}],
+      "priority": 4,
+      "difficulty": 1,
+      "project": "Inbox",
+      "scheduled": { "date": "Mar 8", "relative": "Today" },
+      "parentTask": {},
+      "subtasks": [{}],
+      "reward": {
+        "xp": 70,
+        "gold": 150
+      }
+    },
+    {
+      "id": 3,
+      "taskTitle": "Fowers for Tori",
+      "description": "",
+      "due": { "date": "Mar 8", "relative": "Today" },
+      "tags": ["home"],
+      "reminders": [],
+      "priority": 4,
+      "difficulty": 0,
+      "project": "Inbox",
+      "scheduled": { "date": "Mar 8", "relative": "Today" },
+      "parentTask": {},
+      "subtasks": [{}],
+      "reward": {
+        "xp": 20,
+        "gold": 50
+      }
+    },
+    {
+      "id": 4,
+      "taskTitle": "Laundry Pick-up",
+      "description": "They close at 9",
+      "due": { "date": "Mar 8", "relative": "Today" },
+      "tags": ["home", "kids"],
+      "reminders": [{}],
+      "priority": 1,
+      "difficulty": 1,
+      "project": "Inbox",
+      "scheduled": { "date": "Mar 8", "relative": "Today" },
+      "parentTask": {},
+      "subtasks": [{}],
+      "reward": {
+        "xp": 10,
+        "gold": 40
+      }
+    },
+    {
+      "id": 5,
+      "taskTitle": "Do something nice for someone I care about",
+      "description": "",
+      "due": { "date": "Mar 8", "relative": "Today" },
+      "tags": ["home", "kids"],
+      "reminders": [{}],
+      "priority": 1,
+      "difficulty": 1,
+      "project": "Inbox",
+      "scheduled": { "date": "Mar 8", "relative": "Today" },
+      "parentTask": {},
+      "subtasks": [{}],
+      "reward": {
+        "xp": 10,
+        "gold": 40
+      }
+    },
+    {
+      "id": 6,
+      "taskTitle": "Watch a classic movie",
+      "description": "",
+      "due": { "date": "Mar 8", "relative": "Today" },
+      "tags": ["home", "kids"],
+      "reminders": [{}],
+      "priority": 1,
+      "difficulty": 1,
+      "project": "Inbox",
+      "scheduled": { "date": "Mar 8", "relative": "Today" },
+      "parentTask": {},
+      "subtasks": [{}],
+      "reward": {
+        "xp": 10,
+        "gold": 40
+      }
+    },
+    {
+      "id": 7,
+      "taskTitle": "Memorize the fifty states and their capitals",
+      "description": "",
+      "due": { "date": "Mar 8", "relative": "Today" },
+      "tags": ["home", "kids"],
+      "reminders": [{}],
+      "priority": 1,
+      "difficulty": 1,
+      "project": "Inbox",
+      "scheduled": { "date": "Mar 8", "relative": "Today" },
+      "parentTask": {},
+      "subtasks": [{}],
+      "reward": {
+        "xp": 10,
+        "gold": 40
+      }
+    },
+    {
+      "id": 8,
+      "taskTitle": "Write a thank you letter to an influential person in my life",
+      "description": "",
+      "due": { "date": "Mar 8", "relative": "Today" },
+      "tags": ["home", "kids"],
+      "reminders": [{}],
+      "priority": 1,
+      "difficulty": 1,
+      "project": "Inbox",
+      "scheduled": { "date": "Mar 8", "relative": "Today" },
+      "parentTask": {},
+      "subtasks": [{}],
+      "reward": {
+        "xp": 10,
+        "gold": 40
+      }
+    },
+    {
+      "id": 9,
+      "taskTitle": "Solve a Rubik's cube",
+      "description": "",
+      "due": { "date": "Mar 8", "relative": "Today" },
+      "tags": ["home", "kids"],
+      "reminders": [{}],
+      "priority": 1,
+      "difficulty": 1,
+      "project": "Inbox",
+      "scheduled": { "date": "Mar 8", "relative": "Today" },
+      "parentTask": {},
+      "subtasks": [{}],
+      "reward": {
+        "xp": 10,
+        "gold": 40
+      }
+    },
+    {
+      "id": 10,
+      "taskTitle": "Contribute code or a monetary donation to an open-source software project",
+      "description": "",
+      "due": { "date": "Mar 8", "relative": "Today" },
+      "tags": ["home", "kids"],
+      "reminders": [{}],
+      "priority": 1,
+      "difficulty": 1,
+      "project": "Inbox",
+      "scheduled": { "date": "Mar 8", "relative": "Today" },
+      "parentTask": {},
+      "subtasks": [{}],
+      "reward": {
+        "xp": 10,
+        "gold": 40
+      }
+    },
+    {
+      "id": 11,
+      "taskTitle": "Invite some friends over for a game night",
+      "description": "",
+      "due": { "date": "Mar 8", "relative": "Today" },
+      "tags": ["home", "kids"],
+      "reminders": [{}],
+      "priority": 1,
+      "difficulty": 1,
+      "project": "Inbox",
+      "scheduled": { "date": "Mar 8", "relative": "Today" },
+      "parentTask": {},
+      "subtasks": [{}],
+      "reward": {
+        "xp": 10,
+        "gold": 40
+      }
+    },
+    {
+      "id": 12,
+      "taskTitle": "Text a friend I haven't talked to in a long time",
+      "description": "",
+      "due": { "date": "Mar 8", "relative": "Today" },
+      "tags": ["home", "kids"],
+      "reminders": [{}],
+      "priority": 1,
+      "difficulty": 1,
+      "project": "Inbox",
+      "scheduled": { "date": "Mar 8", "relative": "Today" },
+      "parentTask": {},
+      "subtasks": [{}],
+      "reward": {
+        "xp": 10,
+        "gold": 40
+      }
+    },
+    {
+      "id": 13,
+      "taskTitle": "Plan a vacation I've always wanted to take",
+      "description": "",
+      "due": { "date": "Mar 8", "relative": "Today" },
+      "tags": ["home", "kids"],
+      "reminders": [{}],
+      "priority": 1,
+      "difficulty": 1,
+      "project": "Inbox",
+      "scheduled": { "date": "Mar 8", "relative": "Today" },
+      "parentTask": {},
+      "subtasks": [{}],
+      "reward": {
+        "xp": 10,
+        "gold": 40
+      }
+    },
+    {
+      "id": 14,
+      "taskTitle": "Create a cookbook with favorite recipes",
+      "description": "",
+      "due": { "date": "Mar 8", "relative": "Today" },
+      "tags": ["home", "kids"],
+      "reminders": [{}],
+      "priority": 1,
+      "difficulty": 1,
+      "project": "Inbox",
+      "scheduled": { "date": "Mar 8", "relative": "Today" },
+      "parentTask": {},
+      "subtasks": [{}],
+      "reward": {
+        "xp": 10,
+        "gold": 40
+      }
+    },
+    {
+      "id": 15,
+      "taskTitle": "Create a compost pile",
+      "description": "",
+      "due": { "date": "Mar 8", "relative": "Today" },
+      "tags": ["home", "kids"],
+      "reminders": [{}],
+      "priority": 1,
+      "difficulty": 1,
+      "project": "Inbox",
+      "scheduled": { "date": "Mar 8", "relative": "Today" },
+      "parentTask": {},
+      "subtasks": [{}],
+      "reward": {
+        "xp": 10,
+        "gold": 40
+      }
+    }
+  ]
+}
