@@ -7,8 +7,8 @@ import {
 } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
 
-export default function Header({ setOpen, open }) {
-  const handleCick = () => setOpen(!open);
+export default function Header({ setIsSideNavOpen, isSideNavOpen }) {
+  const handleCick = () => setIsSideNavOpen(!isSideNavOpen);
   return (
     <header className="fixed top-0 box-border flex h-11 w-full justify-between bg-primary px-5">
       <div className="flex items-center">
