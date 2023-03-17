@@ -1,7 +1,7 @@
 export default function PageWrapper({ isSideNavOpen, children }) {
   return (
     <>
-      <div
+      <main
         className={`side-nav-height duration-500 ${
           isSideNavOpen ? "sm:main-width" : "w-full"
         }
@@ -10,7 +10,7 @@ export default function PageWrapper({ isSideNavOpen, children }) {
         } p-l fixed right-0 bottom-0 -z-10 pr-14 shadow-sm`}
       >
         {children}
-      </div>
+      </main>
     </>
   );
 }

@@ -17,20 +17,21 @@ export default function App() {
   return (
     <>
       <BrowserRouter>
-        <Header setOpen={setIsSideNavOpen} isSideNavOpen={isSideNavOpen} />
+        <Header
+          setIsSideNavOpen={setIsSideNavOpen}
+          isSideNavOpen={isSideNavOpen}
+        />
         <SideNav isSideNavOpen={isSideNavOpen} />
-        <main>
-          <PageWrapper isSideNavOpen={isSideNavOpen}>
-            <Statsbar />
-            <Routes>
-              <Route path="/" element={<Dashboard />} />
-              <Route path="/today" element={<Today />} />
-              <Route path="/incoming" element={<Inbox />} />
-              <Route path="/missions" element={<Upcoming />} />
-              <Route path="/training-center" element={<TrainingCenter />} />
-            </Routes>
-          </PageWrapper>
-        </main>
+        <PageWrapper isSideNavOpen={isSideNavOpen}>
+          <Statsbar />
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/today" element={<Today />} />
+            <Route path="/incoming" element={<Inbox />} />
+            <Route path="/missions" element={<Upcoming />} />
+            <Route path="/training-center" element={<TrainingCenter />} />
+          </Routes>
+        </PageWrapper>
       </BrowserRouter>
     </>
   );
