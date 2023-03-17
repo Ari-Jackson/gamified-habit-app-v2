@@ -1,40 +1,21 @@
-import {
-  HomeIcon,
-  Bars3Icon,
-  MagnifyingGlassIcon,
-  QuestionMarkCircleIcon,
-  UserCircleIcon,
-} from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
+import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import profile from "../../assets/images/myProfile.jpg";
 
 export default function Header({ setIsSideNavOpen, isSideNavOpen }) {
   const handleCick = () => setIsSideNavOpen(!isSideNavOpen);
   return (
     <>
-      <div className="navbar fixed z-10 bg-primary text-primary-content">
+      <div className=" navbar min-h-6 fixed z-10 h-11 bg-primary text-primary-content">
         <div className="navbar-start">
-          <div className="dropdown">
-            <div onClick={handleCick} className="btn-ghost btn-circle btn">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16M4 18h7"
-                />
-              </svg>
-            </div>
+          <div onClick={handleCick} className="btn-ghost btn-circle btn">
+            <HiOutlineMenuAlt1 className="h-5 w-5" />
           </div>
         </div>
         <div className="navbar-center">
-          <a className="btn-ghost btn text-xl normal-case">HaDventure</a>
+          <Link to="/" className="btn-ghost btn text-xl normal-case">
+            hAdventure
+          </Link>
         </div>
         <div className="navbar-end">
           <button className="btn-ghost btn-circle btn">

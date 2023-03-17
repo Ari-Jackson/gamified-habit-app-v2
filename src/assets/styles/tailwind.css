@@ -15,7 +15,7 @@
     @apply h-16;
   }
   .side-nav-height {
-    height: calc(100% - theme(height.16));
+    height: calc(100% - theme(height.11));
   }
   .main-width {
     width: calc(100% - theme(width.60));
