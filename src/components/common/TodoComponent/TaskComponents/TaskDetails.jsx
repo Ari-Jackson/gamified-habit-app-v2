@@ -1,10 +1,11 @@
 import { TbFlag, TbSwords } from "react-icons/tb";
 import { AiOutlineTag } from "react-icons/ai";
 import { MdAlarm } from "react-icons/md";
+import TaskCheckMark from "./TaskCheckMark";
 
 export default function TaskDetails({ taskDetails }) {
   const {
-    title,
+    taskTitle,
     description,
     due: { relative, date },
     tags,
@@ -13,13 +14,18 @@ export default function TaskDetails({ taskDetails }) {
     difficulty,
   } = taskDetails;
 
+  console.log(taskDetails);
+
   return (
     <div className="flex flex-grow flex-col pl-1">
-      <h1>{title}</h1>
-      <p className="overflow-hidden whitespace-nowrap px-2 text-xs">
+      <div className="flex gap-2">
+        <TaskCheckMark />
+        <h1 className="card-title">{taskTitle}</h1>
+      </div>
+      <p className="overflow-hidden whitespace-nowrap px-1 text-xs">
         {description}
       </p>
-      <div className="mt-1 flex space-x-2 text-xs">
+      <div className="mt-1 flex space-x-2 px-1 text-xs">
         <p>
           {relative} · {date}
         </p>
