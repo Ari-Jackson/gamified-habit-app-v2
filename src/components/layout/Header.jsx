@@ -4,9 +4,9 @@ import {
   MagnifyingGlassIcon,
   QuestionMarkCircleIcon,
   UserCircleIcon,
-} from '@heroicons/react/24/solid';
-import { Link } from 'react-router-dom';
-import profile from '../../assets/images/Mario.jpeg';
+} from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
+import profile from "../../assets/images/myProfile.jpg";
 
 export default function Header({ setIsSideNavOpen, isSideNavOpen }) {
   const handleCick = () => setIsSideNavOpen(!isSideNavOpen);
