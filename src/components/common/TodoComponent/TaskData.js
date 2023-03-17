@@ -37,7 +37,7 @@ export const taskData = [
   },
   {
     id: 3,
-    taskTitle: "Fowers for Tori",
+    taskTitle: "Flowers for Tori",
     description: "",
     due: { date: "Mar 8", relative: "Today" },
     tags: ["home"],
