@@ -12,10 +12,10 @@
     @apply mx-2 h-6 w-6 cursor-pointer rounded-sm text-white hover:bg-slate-300;
   }
   .nav-height {
-    @apply h-11;
+    @apply h-16;
   }
   .side-nav-height {
-    height: calc(100% - theme(height.11));
+    height: calc(100% - theme(height.16));
   }
   .main-width {
     width: calc(100% - theme(width.60));
