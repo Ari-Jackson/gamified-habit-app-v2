@@ -55,17 +55,17 @@ export default function Header({ setIsSideNavOpen, isSideNavOpen }) {
           </button>
           <div className="flex-none">
             <div className="dropdown-end dropdown">
-              <label tabindex="0" class="btn-ghost btn-circle avatar btn">
-                <div class="w-10 rounded-full">
+              <label tabIndex="0" className="btn-ghost btn-circle avatar btn">
+                <div className="w-10 rounded-full">
                   <img src={profile} />
                 </div>
               </label>
               <ul
-                tabindex="0"
-                class="dropdown-content menu rounded-box menu-compact mt-3 w-52 bg-base-100 p-2 text-primary shadow"
+                tabIndex="0"
+                className="dropdown-content menu rounded-box menu-compact mt-3 w-52 bg-base-100 p-2 text-primary shadow"
               >
                 <li>
-                  <a class="justify-between">Profile</a>
+                  <a className="justify-between">Profile</a>
                 </li>
                 <li>
                   <a>Settings</a>

@@ -28,29 +28,33 @@ export default function StatsSection({ statsOpen }) {
         ></progress>
       </div>
       <div className="w-fit duration-200 ease-in">
-        <div class="stats h-full w-full overflow-visible shadow">
-          <div class={`stat duration-200 ease-in ${setFormat()}`}>
-            <div class="stat-figure text-secondary">
+        <div className="stats h-full w-full overflow-visible shadow">
+          <div className={`stat duration-200 ease-in ${setFormat()}`}>
+            <div className="stat-figure text-secondary">
               <CircleStackIcon className="w-8 text-yellow-500" />
             </div>
-            <div class={`stat-title duration-200 ${setVisibility()}`}>Gold</div>
-            <div class="stat-value text-lg">840</div>
+            <div className={`stat-title duration-200 ${setVisibility()}`}>
+              Gold
+            </div>
+            <div className="stat-value text-lg">840</div>
           </div>
-          <div class={`stat duration-200 ${setFormat()}`}>
-            <div class="stat-figure text-secondary">
+          <div className={`stat duration-200 ${setFormat()}`}>
+            <div className="stat-figure text-secondary">
               <HeartIcon className="w-8 text-rose-600" />
             </div>
-            <div class={`stat-title duration-200 ${setVisibility()}`}>
+            <div className={`stat-title duration-200 ${setVisibility()}`}>
               Heart
             </div>
-            <div class="stat-value text-lg">12</div>
+            <div className="stat-value text-lg">12</div>
           </div>
-          <div class={`stat duration-200 ${setFormat()}`}>
-            <div class="stat-figure text-secondary">
+          <div className={`stat duration-200 ${setFormat()}`}>
+            <div className="stat-figure text-secondary">
               <SparklesIcon className="w-8 text-cyan-600" />
             </div>
-            <div class={`stat-title duration-200 ${setVisibility()}`}>Mana</div>
-            <div class="stat-value text-lg">50</div>
+            <div className={`stat-title duration-200 ${setVisibility()}`}>
+              Mana
+            </div>
+            <div className="stat-value text-lg">50</div>
           </div>
         </div>
       </div>
