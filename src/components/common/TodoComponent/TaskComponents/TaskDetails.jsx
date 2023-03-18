@@ -14,13 +14,11 @@ export default function TaskDetails({ taskDetails }) {
     difficulty,
   } = taskDetails;
 
-  console.log(taskDetails);
-
   return (
     <div className="flex flex-grow flex-col pl-1">
       <div className="flex gap-2">
         <TaskCheckMark />
-        <h1 className="card-title">{taskTitle}</h1>
+        <h1 className="bold card-title text-base font-medium">{taskTitle}</h1>
       </div>
       <p className="overflow-hidden whitespace-nowrap px-1 text-xs">
         {description}
