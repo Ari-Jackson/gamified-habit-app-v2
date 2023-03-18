@@ -40,7 +40,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Today tasks={tasks} />} />
             <Route path="/incoming" element={<Inbox tasks={tasks} />}>
-              <Route path=":taskId" element={<TaskModal />} />
+              <Route path=":taskId" element={<TaskModal tasks={tasks} />} />
             </Route>
             {/* <Route path="/" element={<Dashboard />} /> */}
             {/* <Route path="/missions" element={<Upcoming />} />
