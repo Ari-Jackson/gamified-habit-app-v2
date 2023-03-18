@@ -1,6 +1,10 @@
 import Task from "../../components/common/TodoComponent/Task";
-import taskData from "../../../database/db.json";
-export default function Inbox() {
+import { Outlet } from "react-router-dom";
+export default function Inbox({ tasks }) {
+  const inboxTasksWithJSX = tasks
+    .filter(({ project }) => project == "Inbox")
+    .map((taskData) => <Task key={taskData.id} taskData={taskData} />);
+
   return (
     <>
       <header>
@@ -8,11 +12,8 @@ export default function Inbox() {
           <h1 className="text-2xl font-bold text-primary">Incoming</h1>
         </div>
       </header>
-      <ul>
-        {taskData.tasks.map((task) => {
-          return <Task key={task.id} taskData={task} />;
-        })}
-      </ul>
+      <ul>{inboxTasksWithJSX}</ul>
+      <Outlet />
     </>
   );
 }
