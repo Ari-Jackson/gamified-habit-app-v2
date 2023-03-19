@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { useNavigate, useParams } from "react-router-dom";
 import TaskCheckMark from "../TaskComponents/TaskCheckMark";
+import TaskModalHeader from "./TaskModalComponents/TaskModalHeader";
 
 export default function TaskModal({ tasks }) {
   const [isOpen, setIsOpen] = useState(true);
@@ -13,8 +14,7 @@ export default function TaskModal({ tasks }) {
     navigate(`/incoming`);
   };
 
-  if (tasks !== undefined) {
-    console.log(tasks);
+  if (tasks !== undefined && tasks.length > 0) {
     const chosenTask = tasks.find((task) => {
       return task.id === Number(taskIdString);
     });
@@ -31,8 +31,12 @@ export default function TaskModal({ tasks }) {
             <article className="flex h-full flex-col gap-4 overflow-y-auto p-4">
               <div className="flex p-4">
                 <TaskCheckMark />
-            <p>in {project}</p>
-            <p>{description}</p>
+                <div className="">
+                  <Dialog.Title> {taskTitle}</Dialog.Title>
+                  <p>{description}</p>
+                </div>
+              </div>
+            </article>
           </Dialog.Panel>
         </div>
       </Dialog>
