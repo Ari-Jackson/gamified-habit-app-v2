@@ -1,4 +1,4 @@
-import Task from "../../components/common/TodoComponent/Task";
+import Task from "../../components/common/Task/Task";
 
 export default function Today({ tasks }) {
   const todaysDataWithJSX = tasks

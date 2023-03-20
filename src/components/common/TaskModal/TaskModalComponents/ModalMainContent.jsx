@@ -1,5 +1,5 @@
 import { Children } from "react";
-import TaskCheckMark from "../../TodoComponent/TaskComponents/TaskCheckMark";
+import TaskCheckMark from "../../Task/TaskComponents/TaskCheckMark";
 export default function ModalMainContent({ description, children }) {
   return (
     <div className="flex items-start px-4">

@@ -1,4 +1,4 @@
-import Task from "../../components/common/TodoComponent/Task";
+import Task from "../../components/common/Task/Task";
 import { Outlet } from "react-router-dom";
 export default function Inbox({ tasks }) {
   const inboxTasksWithJSX = tasks
