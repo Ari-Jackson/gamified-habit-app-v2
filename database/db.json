@@ -13,6 +13,7 @@
       "scheduled": { "date": "Mar 8", "relative": "Today" },
       "parentTask": {},
       "subtasks": [{}],
+      "notes": "",
       "reward": {
         "xp": 20,
         "gold": 50
@@ -31,6 +32,7 @@
       "scheduled": { "date": "Mar 8", "relative": "Today" },
       "parentTask": {},
       "subtasks": [{}],
+      "notes": "",
       "reward": {
         "xp": 70,
         "gold": 150
@@ -49,6 +51,7 @@
       "scheduled": { "date": "Mar 8", "relative": "Today" },
       "parentTask": {},
       "subtasks": [{}],
+      "notes": "",
       "reward": {
         "xp": 20,
         "gold": 50
@@ -67,6 +70,7 @@
       "scheduled": { "date": "Mar 8", "relative": "Today" },
       "parentTask": {},
       "subtasks": [{}],
+      "notes": "",
       "reward": {
         "xp": 10,
         "gold": 40
@@ -85,6 +89,7 @@
       "scheduled": { "date": "Mar 8", "relative": "Today" },
       "parentTask": {},
       "subtasks": [{}],
+      "notes": "",
       "reward": {
         "xp": 10,
         "gold": 40
@@ -103,6 +108,7 @@
       "scheduled": { "date": "Mar 8", "relative": "Today" },
       "parentTask": {},
       "subtasks": [{}],
+      "notes": "",
       "reward": {
         "xp": 10,
         "gold": 40
@@ -121,6 +127,7 @@
       "scheduled": { "date": "Mar 8", "relative": "Today" },
       "parentTask": {},
       "subtasks": [{}],
+      "notes": "",
       "reward": {
         "xp": 10,
         "gold": 40
@@ -139,6 +146,7 @@
       "scheduled": { "date": "Mar 8", "relative": "Today" },
       "parentTask": {},
       "subtasks": [{}],
+      "notes": "",
       "reward": {
         "xp": 10,
         "gold": 40
@@ -157,6 +165,7 @@
       "scheduled": { "date": "Mar 8", "relative": "Today" },
       "parentTask": {},
       "subtasks": [{}],
+      "notes": "",
       "reward": {
         "xp": 10,
         "gold": 40
@@ -175,6 +184,7 @@
       "scheduled": { "date": "Mar 8", "relative": "Today" },
       "parentTask": {},
       "subtasks": [{}],
+      "notes": "",
       "reward": {
         "xp": 10,
         "gold": 40
@@ -193,6 +203,7 @@
       "scheduled": { "date": "Mar 8", "relative": "Today" },
       "parentTask": {},
       "subtasks": [{}],
+      "notes": "",
       "reward": {
         "xp": 10,
         "gold": 40
@@ -211,6 +222,7 @@
       "scheduled": { "date": "Mar 8", "relative": "Today" },
       "parentTask": {},
       "subtasks": [{}],
+      "notes": "",
       "reward": {
         "xp": 10,
         "gold": 40
@@ -229,6 +241,7 @@
       "scheduled": { "date": "Mar 8", "relative": "Today" },
       "parentTask": {},
       "subtasks": [{}],
+      "notes": "",
       "reward": {
         "xp": 10,
         "gold": 40
@@ -247,6 +260,7 @@
       "scheduled": { "date": "Mar 8", "relative": "Today" },
       "parentTask": {},
       "subtasks": [{}],
+      "notes": "",
       "reward": {
         "xp": 10,
         "gold": 40
@@ -265,6 +279,7 @@
       "scheduled": { "date": "Mar 8", "relative": "Tomorrow" },
       "parentTask": {},
       "subtasks": [{}],
+      "notes": "",
       "reward": {
         "xp": 10,
         "gold": 40
