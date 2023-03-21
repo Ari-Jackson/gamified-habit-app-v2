@@ -40,9 +40,9 @@ export default function ModalEditSection({
       {editsectionData.map((item) => {
         return (
           <>
-            <div className="flex h-10 items-center gap-3 rounded-md pl-1 duration-200 hover:bg-slate-400 hover:bg-opacity-30">
+            <div className="flex h-10 items-center gap-3 rounded-md pl-1 duration-200 hover:bg-opacity-30 hover:lg:bg-slate-400">
               {item.icon("text-xl")}
-              <h3 className="w-full">{item.info}</h3>
+              <h3 className="w-full text-sm">{item.info}</h3>
             </div>
             <hr className="ml-8" />
           </>

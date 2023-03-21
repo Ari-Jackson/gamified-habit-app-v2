@@ -56,7 +56,7 @@ export default function Header({ setIsSideNavOpen, isSideNavOpen }) {
           <div className="flex-none">
             <div className="dropdown-end dropdown">
               <label tabIndex="0" className="btn-ghost btn-circle avatar btn">
-                <div className="w-10 rounded-full">
+                <div className="w-8 rounded-full">
                   <img src={profile} />
                 </div>
               </label>

@@ -24,8 +24,8 @@ export default function TaskModal({ tasks }) {
 
     return (
       <Dialog open={isOpen} onClose={handleClose} className="relative z-50">
-        <div className="fixed inset-0 flex items-center justify-center bg-slate-900 bg-opacity-40 p-8">
-          <Dialog.Panel className="flex h-full w-full max-w-4xl flex-col rounded-lg bg-white">
+        <div className="fixed inset-0 flex h-full items-center justify-center bg-slate-900 bg-opacity-40 pt-40 sm:p-8">
+          <Dialog.Panel className="flex h-full w-full max-w-4xl flex-col overflow-y-auto rounded-t-lg bg-white sm:rounded-lg">
             <ModalHeader project={project} handleClose={handleClose} />
             <hr />
             <article className="flex h-full flex-col gap-4 overflow-y-auto p-4">
